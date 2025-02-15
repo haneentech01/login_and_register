@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwind -i src/input.css -o src/output.css",
+    "watch": "tailwind -i src/input.css -o src/output.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
   },
   "dependencies": {
     "@firecms/neat": "^0.3.0",
+    "@tailwindcss/cli": "^4.0.6",
     "three.js": "^0.77.1"
   }
 }
