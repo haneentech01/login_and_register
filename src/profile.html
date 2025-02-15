@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind Css Package -->
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./input.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7c80cd4016.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Profile</title>
+  </head>
+
+  <body>
+    <div class="flex flex-col h-screen items-center p-4">
+      <div class="flex gap-1.5 items-center my-3 w-fit">
+        <h2 class="text-6xl font-bold mt-2">Profile</h2>
+        <i class="fa-solid fa-user"></i>
+      </div>
+
+      <div id="profile-info"></div>
+      <button
+        id="logout-btn"
+        class="bg-blue-950 text-white py-2 px-8 rounded-full p-5 cursor-pointer mt-2.5"
+      >
+        Logout
+      </button>
+    </div>
+    <script src="profile.js"></script>
+  </body>
+</html>

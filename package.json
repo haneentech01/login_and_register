@@ -1,0 +1,21 @@
+{
+  "name": "task04",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
+  },
+  "dependencies": {
+    "@firecms/neat": "^0.3.0",
+    "three.js": "^0.77.1"
+  }
+}

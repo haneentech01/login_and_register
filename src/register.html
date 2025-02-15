@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind Css Package -->
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./input.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7c80cd4016.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Registration</title>
+  </head>
+
+  <body id="gradient" class="Roboto Condensed flex-grow w-full h-full">
+    <div class="flex flex-col h-screen items-center p-4">
+      <div class="flex gap-1.5 items-center my-3 w-fit">
+        <h2 class="text-6xl font-bold mt-2">Register</h2>
+        <i class="fa-solid fa-registered text-4xl"></i>
+      </div>
+
+      <form
+        id="register-form"
+        class="flex flex-col items-center justify-between w-full gap-2 mt-4"
+      >
+        <input
+          type="text"
+          id="name"
+          placeholder="Name"
+          required
+          class="outline-2 focus:outline-blue-900 focus:borde-blue-900 p-2 rounded-md"
+        /><br />
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Email"
+          required
+          class="outline-2 focus:outline-blue-900 focus:border-blue-900 p-2 rounded-md"
+        /><br />
+
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+          class="outline-2 focus:outline-blue-900 focus:border-blue-900 p-2 rounded-md"
+        /><br />
+
+        <button
+          type="submit"
+          class="bg-blue-950 text-white py-2 px-8 rounded-full p-5 cursor-pointer"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+    <script src="register.js "></script>
+  </body>
+</html>
